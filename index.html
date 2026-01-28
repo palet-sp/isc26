@@ -47,6 +47,19 @@
             border-top: 1px solid #e5e7eb;
         }
         
+        /* Speaker Tag Styles (Squared) */
+        .speaker-tag {
+            background-color: #e0f2fe; /* Light blue background */
+            color: #0369a1; /* Dark blue text */
+            padding: 2px 8px; /* Slightly reduced padding for inline fit */
+            border-radius: 6px; /* Slightly rounded square */
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-block;
+            border: 1px solid #bae6fd;
+            white-space: normal;
+        }
+
         /* Tab Styles */
         .tab-btn {
             transition: all 0.3s ease;
@@ -71,6 +84,7 @@
             .card { break-inside: avoid; border: 1px solid #ccc; box-shadow: none; margin-bottom: 1rem; border-left: 5px solid #000; }
             .no-print { display: none !important; }
             .bg-white { background-color: white !important; }
+            .speaker-tag { border: 1px solid #ccc; background-color: #eee; color: black; }
             
             /* Force all sections to show when printing, ignoring JS tabs */
             .day-content { display: block !important; }
@@ -119,9 +133,14 @@
                 <!-- Item 1 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>9:00am - 5:00pm - Room D167/D174 – Mollie McDermott</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>9:00am - 5:00pm</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room D167/D174</span>
+                                <span class="speaker-tag">Mollie McDermott</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Stroke in Practice Pre-Conference Symposium: Stroke Lagniappe</h3>
                     </div>
@@ -133,9 +152,14 @@
                 <!-- Item 2 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>9:30 – 9:45am - Room R06-R09 (Riverside) – Lynda Lisabeth</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>9:30 – 9:45am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room R06-R09 (Riverside)</span>
+                                <span class="speaker-tag">Lynda Lisabeth</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Presentation 3: Valid subgroup analysis in the context of trials and health equity</h3>
                     </div>
@@ -147,9 +171,14 @@
                 <!-- Item 3 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>10:00am-10:25am – Room 208-210 – Brian Stamm & Regina Royan</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>10:00am-10:25am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room 208-210</span>
+                                <span class="speaker-tag">Brian Stamm & Regina Royan</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Invited Oral Presentation (Stroke in Practice Pre-Conference Symposium ): Where Y'at? Door In Door Out</h3>
                     </div>
@@ -161,9 +190,14 @@
                 <!-- Item 4 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>1:45pm – 1:48pm - Room R06-R09 (Riverside) – Chen Chen</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>1:45pm – 1:48pm</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room R06-R09 (Riverside)</span>
+                                <span class="speaker-tag">Chen Chen</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Moderated Poster: Neighborhood environmental burden and incident stroke and stroke severity: the Brain Attack Surveillance in Corpus Christi (BASIC) Project, 2022-2024</h3>
                     </div>
@@ -186,9 +220,14 @@
                 <!-- Item 1 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>7:30am – 9:00am - Room R06-R09 (Riverside) – Devin Brown</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>7:30am – 9:00am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room R06-R09 (Riverside)</span>
+                                <span class="speaker-tag">Devin Brown</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Oral Abstract: Epidemiology, Risk Factors, and Prevention Oral Abstracts I</h3>
                     </div>
@@ -200,9 +239,14 @@
                 <!-- Item 2 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>9:03am – 9:09am - Hall B‚ Poster Hall‚ Digital Oral Poster Theater 2 – Chen Chen</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>9:03am – 9:09am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Hall B‚ Poster Hall‚ Digital Oral Poster Theater 2</span>
+                                <span class="speaker-tag">Chen Chen</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Poster DP009: Neighborhood environmental burden and incident stroke and stroke severity: the Brain Attack Surveillance in Corpus Christi (BASIC) Project, 2022-2024</h3>
                     </div>
@@ -214,9 +258,14 @@
                 <!-- Item 3 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>12:30pm - 2:30pm - Hall B‚ Poster Hall – Darin Zahuranec</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>12:30pm - 2:30pm</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Hall B‚ Poster Hall</span>
+                                <span class="speaker-tag">Darin Zahuranec</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Poster WP 315: Outcomes of Stroke Survivors with Feeding Tubes in a Community-Based Study</h3>
                     </div>
@@ -228,9 +277,14 @@
                 <!-- Item 4 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>12:30pm – 2:30pm - Hall B‚ Poster Hall – Hely Nanavati</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>12:30pm – 2:30pm</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Hall B‚ Poster Hall</span>
+                                <span class="speaker-tag">Hely Nanavati</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Poster WP144: Association between transportation noise exposure and post-stroke outcomes: a population-based study</h3>
                     </div>
@@ -242,28 +296,57 @@
                 <!-- Item 5 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>5:42pm – 5:48pm - Hall B‚ Poster Hall‚ Digital Oral Poster Theater 2 – Deborah A Levine</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>5:42pm – 5:48pm</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Hall B‚ Poster Hall‚ Digital Oral Poster Theater 2</span>
+                                <span class="speaker-tag">Deborah A Levine</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Oral Poster: Association between Cumulative Fasting Blood Glucose and Later-life Cognitive Decline</h3>
                     </div>
                     <div class="people-text p-4 px-5">
-                        <span class="font-semibold text-blue-800">Author:</span> Hugo J Aparicio, Hertzel C Gerstein, Deborah A. Levine,</span> Kristine Yaffe, Tatjana Rundek, Alexa Beiser, Jose Gutierrez, Wan-Ling Hsu, Rachel Whitney, Emily M Briceno, Alden Gross, Bruno Giordani, Oscar L. Lopez, Rodney Hayward, Rodica Busui, Mary R. Rooney, James M Shikany, Jing Li, Norrina B Allen, Timothy M Hughes, Melinda Power, Elizabeth Selvin, Kenneth J Mukamal, Rebecca Ferber, Lia W Marshall
+                        <span class="font-semibold text-blue-800">Author:</span> Hugo J Aparicio, Hertzel C Gerstein, Deborah A. Levine, Kristine Yaffe, Tatjana Rundek, Alexa Beiser, Jose Gutierrez, Wan-Ling Hsu, Rachel Whitney, Emily M Briceno, Alden Gross, Bruno Giordani, Oscar L. Lopez, Rodney Hayward, Rodica Busui, Mary R. Rooney, James M Shikany, Jing Li, Norrina B Allen, Timothy M Hughes, Melinda Power, Elizabeth Selvin, Kenneth J Mukamal, Rebecca Ferber, Lia W Marshall
+                    </div>
+                </div>
+
+                <!-- Item NEW (Wednesday) -->
+                <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
+                    <div class="p-5 pb-3">
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>5:45pm-6:00pm</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Hall B‚ Poster Hall‚ Digital Oral Poster Theater 2</span>
+                                <span class="speaker-tag">Neil Mehta</span>
+                            </div>
+                        </div>
+                        <h3 class="presentation-title mb-1">Moderated Digital Oral Abstract: Life expectancy after incident ischemic stroke in a bi-ethnic and population-based sample: estimates over 2005 to 2022</h3>
+                    </div>
+                    <div class="people-text p-4 px-5">
+                        <span class="font-semibold text-blue-800">Authors:</span> Neil Mehta, Madeline Kwicklis, Xiaoying Yu, Ioannis Malagaris, Lynda D Lisabeth
                     </div>
                 </div>
 
                 <!-- Item 6 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>5:48pm – 5:54pm - Hall B‚ Poster Hall‚ Digital Oral Poster Theater 1 – Nikita Chhabra</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>5:48pm – 5:54pm</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Hall B‚ Poster Hall‚ Digital Oral Poster Theater 1</span>
+                                <span class="speaker-tag">Nikita Chhabra</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Poster: Sleep-Disordered Breathing May Modify Association of Thrombolysis with Stroke Outcomes After Ischemic Stroke</h3>
                     </div>
                     <div class="people-text p-4 px-5">
-                        <span class="font-semibold text-blue-800">Author:</span> Devin L. Brown, Madeline Kwicklis, Lynda D. Lisabeth, Erin Case, Nikita Chhabra,</span> Ronald Chervin
+                        <span class="font-semibold text-blue-800">Author:</span> Devin L. Brown, Madeline Kwicklis, Lynda D. Lisabeth, Erin Case, Nikita Chhabra, Ronald Chervin
                     </div>
                 </div>
             </div>
@@ -280,23 +363,33 @@
                 <!-- Item 1 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>9:15am-9:25am - Room 206-207 – Regina Royan</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>9:15am-9:25am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room 206-207</span>
+                                <span class="speaker-tag">Regina Royan</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Oral Abstract: Timeliness of Emergency Care for Intracerebral Hemorrhage Compared to Ischemic Stroke from 2015 to 2024: Insights from Get With the Guidelines-Stroke</h3>
                     </div>
                     <div class="people-text p-4 px-5">
-                        <span class="font-semibold text-blue-800">Author:</span> Regina Royan, MD, MPH;</span> Uchechukwu Ikeaba, MS; Brooke Alhanti, PhD; Brian Stamm, MD , MSc;</span> Brian Mac Grory, MB BCh BAO; Shyam Prabhakaran, MD, MS; Matthew B. Maas, MD MS; Raymond C. Chang, MBA, MS; Gregg C. Fonarow, MD; Steven R. Messe, MD; Lauren E. Mamer, MD, PhD; Amar Dhand, MD, PhD; Joshua N. Goldstein, MD, PhD; Jeffrey L. Saver, MD; Eric E. Smith, MD; William J. Meurer, MD, MS; Kevin N. Sheth, MD
+                        <span class="font-semibold text-blue-800">Author:</span> Regina Royan, MD, MPH; Uchechukwu Ikeaba, MS; Brooke Alhanti, PhD; Brian Stamm, MD , MSc; Brian Mac Grory, MB BCh BAO; Shyam Prabhakaran, MD, MS; Matthew B. Maas, MD MS; Raymond C. Chang, MBA, MS; Gregg C. Fonarow, MD; Steven R. Messe, MD; Lauren E. Mamer, MD, PhD; Amar Dhand, MD, PhD; Joshua N. Goldstein, MD, PhD; Jeffrey L. Saver, MD; Eric E. Smith, MD; William J. Meurer, MD, MS; Kevin N. Sheth, MD
                     </div>
                 </div>
 
                 <!-- Item 2 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>9:36am-9:42am - Hall B, Poster Hall, Digital Oral Poster Theater 3 – Chris Becker</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>9:36am-9:42am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Hall B, Poster Hall, Digital Oral Poster Theater 3</span>
+                                <span class="speaker-tag">Chris Becker</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Moderated poster #DP237: Association between the food environment and ischemic stroke risk: A population-based study</h3>
                     </div>
@@ -308,9 +401,14 @@
                 <!-- Item 3 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>9:55am – 10:05am - Room 208-210 – Dawn Kleindorfer</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>9:55am – 10:05am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room 208-210</span>
+                                <span class="speaker-tag">Dawn Kleindorfer</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">ISC Invited Symposium: Population-Based Approaches: Reducing Stroke Risk</h3>
                     </div>
@@ -322,9 +420,14 @@
                 <!-- Item 4 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>12:30pm – 2:30pm - Hall B‚ Poster Hall – Shani Mannion</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>12:30pm – 2:30pm</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Hall B‚ Poster Hall</span>
+                                <span class="speaker-tag">Shani Mannion</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Poster: Predictors of Subjective Well-being in Stroke Survivors with High versus Low Levels of Disability</h3>
                     </div>
@@ -333,12 +436,36 @@
                     </div>
                 </div>
 
+                <!-- Item NEW (Thursday) -->
+                <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
+                    <div class="p-5 pb-3">
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>12:30pm - 2:30pm</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Hall B‚ Poster Hall</span>
+                                <span class="speaker-tag">Ariana M. Nigoghosian</span>
+                            </div>
+                        </div>
+                        <h3 class="presentation-title mb-1">Poster Abstract: Resilience Factors Associated With Positive Outcomes Among Older Stroke Survivors</h3>
+                    </div>
+                    <div class="people-text p-4 px-5">
+                        <span class="font-semibold text-blue-800">Authors:</span> Madeline Kwicklis, Lynda D Lisabeth, Erin Case, Lewis B Morgenstern, Christopher Becker, Christina M. Lineback, Ariana Maral Nigoghosian, Jiacong Du
+                    </div>
+                </div>
+
                 <!-- Item 5 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>2:30pm-2:40pm - Room 228-230 – Session Code: LB015 – Brian Stamm</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>2:30pm-2:40pm</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room 228-230 - Session Code: LB015</span>
+                                <span class="speaker-tag">Brian Stamm</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Oral Abstract (Late-Breaking): Factors Associated with Sex Differences in Cognitive Decline: A Pooled Cohort Analysis of ARIC, CHS, FOS, MESA, and CARDIA in the BP COG Study"</h3>
                     </div>
@@ -350,9 +477,14 @@
                 <!-- Item 6 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>5:30pm – 6:00pm - Hall B‚ Poster Hall‚ Digital Oral Poster Theater 2 – Devin Brown</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>5:30pm – 6:00pm</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Hall B‚ Poster Hall‚ Digital Oral Poster Theater 2</span>
+                                <span class="speaker-tag">Devin Brown</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Abstract: Epidemiology, Risk Factors, and Prevention Moderated Digital Oral Abstract Session 10</h3>
                     </div>
@@ -374,9 +506,14 @@
                 <!-- Item 1 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>9:15am – 10:45am - Room R06-R09 (Riverside) – Mellanie Springer</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>9:15am – 10:45am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room R06-R09 (Riverside)</span>
+                                <span class="speaker-tag">Mollie Springer</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">ISC Invited Symposium: The Paola De Rango Memorial Session: Sex and Gender Differences Related to Cognitive Impairment and Dementia after Stroke</h3>
                     </div>
@@ -388,9 +525,14 @@
                 <!-- Item 2 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>9:15am – 9:30am - Room R06-R09 (Riverside) – Deborah Levine</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>9:15am – 9:30am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room R06-R09 (Riverside)</span>
+                                <span class="speaker-tag">Deborah Levine</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">ISC Invited Symposium: Epidemiology of Sex and Gender Differences in Poststroke Cognitive Impairment and Dementia</h3>
                     </div>
@@ -402,9 +544,14 @@
                 <!-- Item 3 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>10:15am-10:25am - Room 228-230 – Regina Royan</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>10:15am-10:25am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room 228-230</span>
+                                <span class="speaker-tag">Regina Royan</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Oral Abstract: Presenting Systolic Blood Pressure and Discharge Outcomes in Patients With Intracerebral Hemorrhage: Insights from the New Hemorrhagic Stroke Data Layer of the Guidelines-Stroke National Registry</h3>
                     </div>
@@ -416,23 +563,33 @@
                 <!-- Item 4 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>10:15am-10:25am - Room 217-219 – Deborah Levine</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>10:15am-10:25am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room 217-219</span>
+                                <span class="speaker-tag">Deborah Levine</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Oral Abstract: Post-Stroke Cardiovascular Risk and Post-Stroke Cognitive Decline: Differences by Sex and Age</h3>
                     </div>
                     <div class="people-text p-4 px-5">
-                        <span class="font-semibold text-blue-800">Author:</span> Deborah Levine MD, MPH, Wan-Ling Hsu, PhD, Wen Ye, PhD, Rachael T. Whitney, PhD, Jeremy B. Sussman, MD, MS, Emily M. Briceño, PhD, Alden L. Gross, PhD, Bruno J. Giordani, PhD, Ronald M. Lazar, PhD, Virginia J. Howard, PhD, Hugo J. Aparicio, MD, MPH, Alexa S. Beiser, PhD, Mitchell S. V. Elkind, MD, MS, Rebecca F. Gottesman, MD, PhD, Sarah T. Pendlebury, MD, Mary Cushman, MD, MSc, Alison Fohner, PhD, Silvia Koton, PhD, William T. Longstreth, Jr., MD, MPH, Oscar L. Lopez, MD, Sudha Seshadri, MD, Mellanie V. Springer, MD, MS, Brian Stamm, MD, MSc, Rodney A. Hayward, MD
+                        <span class="font-semibold text-blue-800">Author:</span> Deborah Levine MD, MPH, Wan-Ling Hsu, PhD, Wen Ye, PhD, Rachael T. Whitney, PhD, Jeremy B. Sussman, MD, MS, Emily M. Briceño, PhD, Alden L. Gross, PhD, Bruno J. Giordani, PhD, Ronald M. Lazar, PhD, Virginia J. Howard, PhD, Hugo J. Aparicio, MD, MPH, Alexa S. Beiser, PhD, Mitchell S. V. Elkind, MD, MS, Rebecca F. Gottesman, MD, PhD, Sarah T. Pendlebury, MD, Mary Cushman, MD, MSc, Alison Fohner, PhD, Silvia Koton, PhD, William T. Longstreth, Jr., MD, MPH, Oscar L. Lopez, MD, Sudha Seshadri, MD, Mellanie V. Springer, MD, MS, Brian Stamm, MD, MSc,  Rodney A. Hayward, MD
                     </div>
                 </div>
 
                 <!-- Item 5 -->
                 <div class="card bg-white rounded-lg shadow-sm overflow-hidden">
                     <div class="p-5 pb-3">
-                        <div class="meta-text flex items-start gap-2 mb-2">
-                            <i class="far fa-clock mt-1 text-blue-500"></i>
-                            <span>10:25am -10:35am - Room 228-230 – Session Code: A145 - Regina Royan</span>
+                        <div class="meta-text mb-2">
+                            <div class="flex flex-wrap items-center gap-2 text-gray-500">
+                                <i class="far fa-clock text-blue-500"></i>
+                                <span>10:25am -10:35am</span>
+                                <span class="text-gray-300">|</span>
+                                <span>Room 228-230 - Session Code: A145</span>
+                                <span class="speaker-tag">Regina Royan</span>
+                            </div>
                         </div>
                         <h3 class="presentation-title mb-1">Oral Abstract: Pre-Hospital Time Matters: Impact of Prehospital Delays on Receipt of IV Thrombolysis and Endovascular Therapy in the Get With The Guidelines-Stroke Registry</h3>
                     </div>
